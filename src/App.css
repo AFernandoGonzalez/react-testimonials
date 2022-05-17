@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #F9F3EE;
+}
+
+h1 {
+    max-width: 940px;
+    font-size: 50px;
+    text-align: center;
+    margin: 1rem;
+    color: #6F4C5B;
+}
+
+.appContainer {
+    margin: 2rem;
+    max-width: 100%;
+}
+.appWapprer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.testimonial-container {
+    display: flex;
+    max-width: 600px;
+    /* border: 2px solid black; */
+    background-color: white;
+    margin: 1rem;
+
+}
+
+.testimonial-name, .testimonial-job {
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.testimonial-text {
+    margin: 1rem;
+}
+ 
